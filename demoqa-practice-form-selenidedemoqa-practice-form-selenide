@@ -1,0 +1,21 @@
+# DemoQA Practice Form Test
+
+Simple UI automation test using **Java**, **Selenide**, and **JUnit 5**.
+
+## What it does
+
+✅ Fills out the form at [demoqa.com/automation-practice-form](https://demoqa.com/automation-practice-form)  
+✅ Uploads file, selects date, subjects, hobbies, state & city  
+✅ Submits form and checks confirmation modal
+
+## Tech Stack
+
+- Java 21  
+- Selenide 7.2.3  
+- JUnit 5  
+- Gradle
+
+## Run the test
+
+```bash
+./gradlew test
